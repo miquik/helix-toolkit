@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 
 #if SHARPDX
-#if NETFX_CORE
+#if NETFX_CORE || NET5_0
 #if CORE
 namespace HelixToolkit.SharpDX.Core
+#elif WINUI
+namespace HelixToolkit.WinUI
 #else
-namespace HelixToolkit.UWP
+namespace TT.HelixToolkit.UWP
 #endif
 #else
 namespace HelixToolkit.Wpf.SharpDX
