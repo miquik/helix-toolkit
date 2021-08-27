@@ -8,7 +8,7 @@ using Windows.UI.Xaml;
 
 namespace TT.HelixToolkit.UWP
 #elif WINUI_NET5_0
-using HelixToolkit.UWP.Model.Scene;
+using HelixToolkit.WinUI.Model.Scene;
 using Windows.UI.Xaml;
 
 namespace HelixToolkit.WinUI

@@ -11,7 +11,7 @@ using FontWeights = SharpDX.DirectWrite.FontWeight;
 using Thickness = HelixToolkit.SharpDX.Core.Model.Scene2D.Thickness;
 #else
 #if NETFX_CORE || NET5_0
-using Windows.UI.Xaml;
+    using Microsoft.UI.Xaml;
     using Media = Microsoft.UI.Xaml.Media;
     using Windows.UI.Text;
 #else

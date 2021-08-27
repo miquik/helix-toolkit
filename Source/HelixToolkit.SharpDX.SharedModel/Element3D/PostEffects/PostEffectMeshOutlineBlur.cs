@@ -9,7 +9,7 @@ namespace TT.HelixToolkit.UWP
 #elif WINUI_NET5_0
 using Windows.Foundation;
 using Windows.UI.Xaml;
-using Color = Windows.UI.Color;
+using Color = Microsoft.UI.Color;
 using Colors = Windows.UI.Colors;
 using Media = Windows.UI;
 

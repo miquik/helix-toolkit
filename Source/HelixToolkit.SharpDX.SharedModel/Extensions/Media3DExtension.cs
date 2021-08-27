@@ -1,4 +1,4 @@
-﻿#if NETFX_CORE
+﻿#if NETFX_CORE || NET5_0
 using Media = Windows.UI;
 #else
 using Media = System.Windows.Media;
