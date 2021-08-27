@@ -11,8 +11,8 @@ using System.Linq;
 using System.Reflection;
 #if CORE
 #else
-#if NETFX_CORE
-using Media = Windows.UI.Xaml.Media;
+#if NETFX_CORE || NET5_0
+using Media = Microsoft.UI.Xaml.Media;
 #else
 using Media = System.Windows.Media;
 #endif

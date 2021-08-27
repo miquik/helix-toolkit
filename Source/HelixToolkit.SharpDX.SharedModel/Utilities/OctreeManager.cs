@@ -15,7 +15,7 @@ using Windows.UI.Core;
 
 namespace TT.HelixToolkit.UWP
 #elif WINUI_NET5_0
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using System.ServiceModel.Dispatcher;
 using FrameworkContentElement = Windows.UI.Xaml.FrameworkElement;    
 using Windows.Foundation;

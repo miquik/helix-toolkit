@@ -18,7 +18,7 @@ using Windows.UI.Xaml.Controls;
 
 namespace TT.HelixToolkit.UWP
 #elif WINUI_NET5_0
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
 namespace HelixToolkit.WinUI

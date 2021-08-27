@@ -37,8 +37,13 @@ REPLACE:
 #if SHARPDX
 #if NETFX_CORE || NET5_0
 
-NO NO
+
+
+
+DOPO
+
 MATCH: 
-#if NETFX_CORE
+#elif WINUI_NET5_0\s+using Windows.UI.Xaml;
 REPLACE:
-#if NETFX_CORE || NET5_0
+#elif WINUI_NET5_0
+using Microsoft.UI.Xaml;

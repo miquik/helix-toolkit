@@ -4,7 +4,7 @@ Copyright (c) 2018 Helix Toolkit contributors
 */
 using SharpDX;
 using System.Collections.Generic;
-#if NETFX_CORE
+#if NETFX_CORE || NET5_0
 
 #else
 using System.Windows.Media.Imaging;
